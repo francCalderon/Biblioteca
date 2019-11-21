@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HOME_ACT">
+
+    <ViewFlipper
+        android:id="@+id/transicion"
+        android:layout_width="366dp"
+        android:layout_height="430dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="38dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ViewFlipper>
+
+    <ImageButton
+        android:id="@+id/ibtUno"
+        android:layout_width="61dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transicion"
+        app:layout_constraintVertical_bias="0.148"
+        app:srcCompat="@drawable/btn_uno" />
+
+    <ImageButton
+        android:id="@+id/ibtDos"
+        android:layout_width="68dp"
+        android:layout_height="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.708"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transicion"
+        app:layout_constraintVertical_bias="0.163"
+        app:srcCompat="@drawable/btn_dos" />
+
+    <ImageButton
+        android:id="@+id/ibtTres"
+        android:layout_width="61dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transicion"
+        app:layout_constraintVertical_bias="0.539"
+        app:srcCompat="@drawable/btn_tres" />
+
+    <ImageButton
+        android:id="@+id/ibtCuatro"
+        android:layout_width="70dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transicion"
+        app:layout_constraintVertical_bias="0.564"
+        app:srcCompat="@drawable/btn_cuatro" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
